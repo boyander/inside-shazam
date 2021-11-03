@@ -1,13 +1,17 @@
-# Music Identifier Service
+# CORE Code School
 
-Visit this link:
+## Music Identifier Service
 
-- https://boyander.github.io/identifier-frontend-samplecode/src/index.html
+![](https://api-cabled.app.faable.com/screenshot?url=https://core-brand-cards.app.faable.com/?title=Cloud%20%Native%20Web%20Development)
 
-## To run locally
+##
 
-Install node_modules with `npm install` and then run the `start` script with:
+https://boyander.github.io/identifier-frontend-samplecode/src/index.html
 
-```bash
-$ npm run start
-```
+- Example project for **Cloud Native Web Development Bootcamp**
+- Bootcamp Curriculum: https://www.corecode.school/en/bootcamp/webdev
+
+## References
+
+- https://slides.com/corecodeschool/deck/fullscreen
+- https://www.corecode.school/en/bootcamp/webdev

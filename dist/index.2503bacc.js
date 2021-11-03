@@ -1,0 +1,2 @@
+const UPLOAD_FAABLE_IDENTIFIER_API="https://song-identifier.faable.com",uploadToCloudIdentifier=async o=>{console.log("Uploading...");let t=new FormData;t.append("blob",o);const e=await axios.post(`${UPLOAD_FAABLE_IDENTIFIER_API}/identify`,t);if(200==e.status){console.log("Done!");const o=e.data;return console.log(o),o}throw console.log("Failed"),new Error("Failed to upload to cloud")};
+//# sourceMappingURL=index.2503bacc.js.map
