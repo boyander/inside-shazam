@@ -1,6 +1,6 @@
 const UPLOAD_FAABLE_IDENTIFIER_API = "https://song-identifier.faable.com";
 
-const uploadToCloudIdentifier = async blob => {
+const uploadToCloudIdentifier = async (blob) => {
   console.log("Uploading...");
   let formData = new FormData();
   formData.append("blob", blob);

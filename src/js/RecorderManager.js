@@ -8,7 +8,7 @@ class RecorderManager {
       if (!this.input || !this.recorder) {
         navigator.getUserMedia(
           { audio: true },
-          stream => {
+          (stream) => {
             const audio_context = new AudioContext();
             this.input = audio_context.createMediaStreamSource(stream);
             this.recorder = new Recorder(this.input, { numChannels: 1 });
@@ -50,12 +50,12 @@ class RecorderManager {
     // create WAV download link using audio data blob
     return new Promise((resolve, reject) => {
       console.log("Generating record data...");
-      this.recorder.exportWAV(blob => {
+      this.recorder.exportWAV((blob) => {
         var url = URL.createObjectURL(blob);
         this.recorder.clear();
         resolve({
           url,
-          blob
+          blob,
         });
       });
     });

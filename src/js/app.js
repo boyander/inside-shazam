@@ -1,7 +1,7 @@
 const log = (e, data) =>
   (window.log.innerHTML += "\n" + e + " " + (data || ""));
 
-const appendToList = url => {
+const appendToList = (url) => {
   const li = document.createElement("li");
   const au = document.createElement("audio");
   const hf = document.createElement("a");
@@ -46,7 +46,7 @@ stopButton.onclick = () => {
       log(`Identifying song....`);
       return uploadToCloudIdentifier(blob);
     })
-    .then(data => {
+    .then((data) => {
       log(`Identified Song -> "${data.identify}"`);
     })
     .catch(log);

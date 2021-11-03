@@ -13,3 +13,11 @@ https://boyander.github.io/inside-shazam
 
 - https://slides.com/corecodeschool/deck/fullscreen
 - https://www.corecode.school/en/bootcamp/webdev
+
+## About CORE Code School
+
+CORE Code School - Change your carreer and unleash your coding superpowers with our cloud native bootcamps and learn javascript or python.
+
+https://www.corecode.school/apply
+
+CODE. ENJOY. REPEAT
